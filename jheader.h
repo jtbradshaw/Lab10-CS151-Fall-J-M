@@ -12,6 +12,6 @@
 #define JHEADER_H
 #include <iostream>
 
-void display();
+
 
 #endif
