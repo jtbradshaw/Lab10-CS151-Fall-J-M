@@ -1,18 +1,17 @@
 /**
- * @file main.cpp
+ * @file jheader.h
  * @author Justin Bradshaw
- * @brief main.cpp file for short program.
+ * @brief Header file for main.cpp
  * @version 0.1
  * @date 2023-10-24
  * 
  * @copyright Copyright (c) 2023
  * 
  */
-#include "jheader.h"
+#ifndef JHEADER_H
+#define JHEADER_H
 #include <iostream>
 
-int main(){
-    display;
+void display();
 
-    return 0;
-}
+#endif
