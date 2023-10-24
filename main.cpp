@@ -10,10 +10,12 @@
  */
 #include "jheader.h"
 #include <iostream>
+#include "mikayla.h"
 
 int main(){
     std::cout<<"This is Justin's branch"<<std::endl;
     std::cout<<"This is the second line that is printed to the terminal"<<std::endl;
-
-    return 0;
+    displayName();
+    
+  return 0;
 }
